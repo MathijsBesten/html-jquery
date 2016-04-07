@@ -9,12 +9,28 @@
 
 </head>
 <body>
+    <script>
+        $(document).ready(function () {
+            $('#butt').click(function () {
+                $('#popup_background').fadeIn('fast');
+                $('#popup_box').fadeIn('fast');
+                return false;
+            });
+            $(this).click(function () {
+                $('#popup_background').fadeOut('fast');
+                $('#popup_box').fadeOut('fast');
+                return false;
+            });
+        });
+
+    </script>
     <div id="firstModal" class="modal">
         <div class="modal-content">
             <span id="close" class="close">x</span>
             <p>informatie over actie</p>
         </div>
     </div>
+
 
 
 
@@ -46,7 +62,7 @@
         </div>
     </div>
     <div id="infoWrapper">
-        <button id="butt">button</button>
+        <button id="butt">Mathijs!</button>
         <p>Druk op een van de onderstaande categorieën</p>
         <ul id="list">
             <li>proces</li>
@@ -58,6 +74,11 @@
             <li>oven</li>
             <li>bestek</li>
         </ul>
+    </div>
+    <div id="popup_background"></div>
+    <div id="popup_box">
+        <span id="close">&times;</span>
+        <p>Je hebt bestek op de tafel laten staan</p>
     </div>
 
 

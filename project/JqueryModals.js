@@ -9,4 +9,5 @@
     $(span).click(function () {
         modal.style.display = "none";
     });
+
 });
