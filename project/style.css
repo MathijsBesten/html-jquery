@@ -6,6 +6,10 @@
     border-color:gray;
 }
 
+.smallInfo{
+    color:white;
+}
+
 #infoWrapper{
 }
 #allWrapper{
@@ -167,6 +171,10 @@
 }
 #aa-inside{
     overflow:auto;
+    height:100px;
+    width:270px;
+    padding:2px;
+    padding-top:0px;
 }
 #bb{
     position:absolute;
@@ -182,8 +190,10 @@
 }
 #bb-inside{
     overflow:auto;
-    height: 100px;
-    width: 270px;
+    height:100px;
+    width:270px;
+    padding:2px;
+    padding-top:0px;
 }
 #cc{
     position:absolute;
@@ -199,7 +209,10 @@
 }
 #cc-inside{
     overflow:auto;
-}
+    height:100px;
+    width:270px;
+    padding:2px;
+    padding-top:0px;}
 #dd{
     position:absolute;
     height:100px;
@@ -214,7 +227,10 @@
 }
 #dd-inside{
     overflow:auto;
-}
+    height:100px;
+    width:270px;
+    padding:2px;
+    padding-top:0px;}
 #ee{
     position:absolute;
     height:100px;
@@ -229,4 +245,9 @@
 }
 #ee-inside{
     overflow:auto;
+    height:100px;
+    width:270px;
+    padding:2px;
+    padding-top:0px;
+
 }
